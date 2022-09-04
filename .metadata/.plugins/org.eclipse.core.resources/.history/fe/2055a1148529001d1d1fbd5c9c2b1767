@@ -1,0 +1,16 @@
+package exercicio;
+
+import java.util.Scanner;
+
+public class exercicio01 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(Sysyem.in);
+		String nome;
+		
+		System.out.println("Digite o seu nome:)");
+		nome = sc.nextLine();
+
+	}
+
+}

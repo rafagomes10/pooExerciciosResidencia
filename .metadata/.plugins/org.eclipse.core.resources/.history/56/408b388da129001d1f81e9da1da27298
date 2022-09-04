@@ -1,0 +1,39 @@
+package exercicio;
+
+import java.util.Scanner;
+
+public class exercicio01 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		String nome, disciplina;
+		
+		int idade, media;
+		
+		double nota, totalNotas = 0.0;
+		
+		System.out.println("Digite o seu nome:");
+		nome = ler.nextLine();
+		System.out.println("Digite a sua idade:");
+		idade = ler.nextInt();
+		System.out.println("Qual é a disciplina:");
+		disciplina = ler.next();
+		
+		
+		
+		for(int cont = 1; cont <= 3; cont++) {
+			System.out.println("Insira a nota " + cont + ": ");
+			nota = ler.nextDouble();
+			totalNotas += nota;
+		}
+			media = totalNotas/3;
+			System.out.println("Olá, " + nome);
+			System.out.println("Na disciplina " + disciplina + " a média é " + media);
+		
+			ler.close();
+		
+		}
+		
+}
+
+

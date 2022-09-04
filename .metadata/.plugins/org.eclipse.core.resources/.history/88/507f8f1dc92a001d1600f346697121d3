@@ -1,0 +1,16 @@
+package br.com.residencia.poo.lista01;
+
+import java.util.Scanner;
+public class SegundoExercicio {
+  public static void main(String[] args) {
+    String nome;
+   try (Scanner ler = new Scanner (System.in)) {
+    
+
+     System.out.print("Digite seu nome: ");
+     nome = ler.nextLine();
+     
+  }
+  System.out.print("Olá " + nome);
+  }
+}
